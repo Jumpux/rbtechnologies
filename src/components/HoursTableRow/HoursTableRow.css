@@ -1,0 +1,36 @@
+.hoursOfWeek {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoursOfWeek > input {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #212346;
+    text-align: right;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.hoursOfWeek > span:last-child {
+    font-size: 10px;
+    color: #212346;
+    cursor: pointer;
+}
+
+.hoursOfWeek > span:last-child:hover {
+    text-decoration: underline;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+input:focus-visible {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    outline: none;
+}

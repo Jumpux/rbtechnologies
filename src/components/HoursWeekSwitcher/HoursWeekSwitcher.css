@@ -1,0 +1,34 @@
+.navButton {
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    border: 0;
+    padding: 8px;
+    background-color: #DCDFF4;
+}
+.navDates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 2px;
+    background-color: #DCDFF4;
+}
+
+.navDates .dates {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navDates .dates .divider {
+    padding: 0 8px;
+}
+
+.chevron {
+    width: 24px;
+    height: 24px;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}

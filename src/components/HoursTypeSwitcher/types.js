@@ -1,0 +1,2 @@
+export const MAIN_HOURS = 'MAIN_HOURS';
+export const OVERTIME_HOURS = 'OVERTIME_HOURS';

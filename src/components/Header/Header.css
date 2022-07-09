@@ -1,0 +1,9 @@
+.Header {
+    padding: 10px 20px;
+    background-color: #212346;
+}
+
+.Header .logo {
+    color: white;
+    font-size: 24px;
+}

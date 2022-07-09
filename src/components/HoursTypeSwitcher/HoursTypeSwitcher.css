@@ -1,0 +1,23 @@
+.HoursTypeSwitcher {
+    display: flex;
+    background-color: #DCDFF4;
+    border-radius: 16px;
+    color: #7174AC;
+    margin-right: 20px;
+}
+
+.HoursTypeSwitcher .button {
+    padding: 10px 8px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.HoursTypeSwitcher .button.active {
+    background-color: #ffffff;
+    font-weight: 600;
+    color: #212346;
+}
+
+.HoursTypeSwitcher .button:last-child {
+    margin-right: 0;
+}
