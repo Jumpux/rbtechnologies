@@ -98,7 +98,7 @@ const HoursContainer = () => {
     }
     const { data: { time_entries: timeEntries } } = await getTableData(
       moment(currentWeekData[0].date).format('YYYY-MM-DD'),
-      moment(currentWeekData[currentWeekData.length - 1].date).format('YY-MM-DD'),
+      moment(currentWeekData[currentWeekData.length - 1].date).format('YYYY-MM-DD'),
     );
     const weekWithValues = currentWeekData.map(dayOfWeek => {
       const currentTimeEntries = timeEntries.find(time => dayOfWeek.date.includes(time.spent_on));
