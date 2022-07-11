@@ -105,6 +105,9 @@ const HoursContainer = () => {
       if (currentTimeEntries) {
         dayOfWeek.hours = currentTimeEntries.hours;
         dayOfWeek.timeEnteriesId = currentTimeEntries.id;
+      } else {
+        dayOfWeek.hours = 0;
+        dayOfWeek.timeEnteriesId = 0;
       }
       return dayOfWeek;
     });
